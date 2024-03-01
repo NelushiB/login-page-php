@@ -1,0 +1,27 @@
+/* Break-points */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+   .content {
+     margin: 0 2%;
+     width: 96%;
+   }
+ }
+ 
+ @media only screen and (max-width: 1024px) {
+   .content {
+     margin: 0 2%;
+     width: 96%;
+   }
+ }
+ 
+ @media only screen and (max-width: 768px) {
+   .col-1,
+   .col-2,
+   .col-3,
+   .col-4,
+   .col-6,
+   .col-8,
+   .col-10 {
+     width: 100%;
+   }
+ }
+ 

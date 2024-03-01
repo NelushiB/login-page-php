@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body,
+input,
+textarea,
+select {
+   font-family: 'Mulish', sans-serif;
+}
+
+body {
+   background: linear-gradient(rgba(19, 117, 130, .9), rgba(11, 39, 72, .9));
+   background-size: cover;
+}
+
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+*:focus {
+   outline: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+   content: "\0020";
+   display: block;
+   height: 0;
+   overflow: hidden;
+}
+
+.clearfix::after {
+   clear: both;
+}
+
+.content {
+   width: 1160px;
+   margin: 0 auto;
+   min-height: 100vh;
+
+   & > .container {
+      min-height: 100vh;
+   }
+}
+
+.col-1 {
+   width: 8.33333%;
+}
+
+.col-2 {
+   width: 16.66666%;
+}
+
+.col-3 {
+   width: 25%;
+}
+
+.col-4 {
+   width: 33.33333%;
+}
+
+.col-6 {
+   width: 50%;
+}
+
+.col-8 {
+   width: 66.66666%;
+}
+
+.col-10 {
+   width: 83.33333%;
+}
+
+.divider {
+   padding: 20px 0;
+}
+
+.spacer {
+   padding: 70px 0;
+}
+
+.responsive {
+   height: auto;
+   width: 100%;
+}
+
+.center {
+   text-align: center;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}

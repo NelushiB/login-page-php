@@ -1,0 +1,14 @@
+.name,
+.password {
+   display: flex;
+}
+
+input[name="nome"],
+input[name="new_password"] {
+   margin-right: 8px;
+}
+
+.register {
+   background: url(../img/register.jpg) no-repeat center center;
+   background-size: cover;
+}

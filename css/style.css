@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+input,
+textarea,
+select {
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(19, 117, 130, 0.9), rgba(11, 39, 72, 0.9));
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+*:focus {
+  outline: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.content {
+  width: 1160px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+.content > .container {
+  min-height: 100vh;
+}
+
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66666%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-8 {
+  width: 66.66666%;
+}
+
+.col-10 {
+  width: 83.33333%;
+}
+
+.divider {
+  padding: 20px 0;
+}
+
+.spacer {
+  padding: 70px 0;
+}
+
+.responsive {
+  height: auto;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.login-box {
+  display: flex;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.background {
+  border-radius: 10px 0 0 10px;
+}
+
+.login {
+  background: url(../img/login.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.form {
+  padding: 3rem;
+}
+.form > div {
+  padding: 2em 0;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 35px;
+  letter-spacing: 1.4px;
+  font-weight: 500;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+.form-group,
+.links,
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=submit] {
+  width: 100%;
+  font-weight: 300;
+  font-size: 15px;
+  border: 1px solid #d1d3e2;
+  padding: 0.7em;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+}
+
+input[type=submit] {
+  padding: 10px 20px;
+  background-color: #70488b;
+  border-color: #70488b;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 20px;
+}
+input[type=submit]:hover {
+  background-color: transparent;
+  color: #323232;
+}
+input[type=submit]:disabled {
+  opacity: 0.8;
+}
+input[type=submit]:disabled:hover {
+  background-color: #70488b;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.remember {
+  padding: 0.5em 0;
+}
+
+a {
+  color: #70488b;
+  text-decoration: none;
+  font-weight: 300px;
+  font-size: 14px;
+  transition: 0.3s;
+  padding: 9px 0;
+}
+a:hover {
+  opacity: 0.8;
+}
+
+.card {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  border-radius: 10px;
+  align-items: center;
+  background-color: #fff;
+}
+.card img {
+  max-width: 60%;
+  margin: 5em 0;
+}
+.card a {
+  color: #fff;
+  background-color: #70488b;
+  border: 1px solid #70488b;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 15px 30px;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 300;
+}
+.card a:hover {
+  background-color: transparent;
+  color: #323232;
+}
+
+.forgot {
+  background: url(../img/forgot.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.name,
+.password {
+  display: flex;
+}
+
+input[name=nome],
+input[name=new_password] {
+  margin-right: 8px;
+}
+
+.register {
+  background: url(../img/register.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/* Break-points */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .content {
+    margin: 0 2%;
+    width: 96%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .content {
+    margin: 0 2%;
+    width: 96%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-6,
+  .col-8,
+  .col-10 {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
